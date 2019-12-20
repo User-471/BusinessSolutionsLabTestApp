@@ -45,9 +45,25 @@ class CardFragment : BaseFragment() {
     }
 
     private fun setData() {
-        tv_toolbar_title.text = card.title
         tv_card_description.text = card.description
 
-        loadPictureWithoutCrop(iv_card_image_detail, card.image_url)
+        if(card.colorType == 0) {
+            cl_coins.background = activity!!.getDrawable(R.drawable.rounded_4_bottom_grey)
+        }
+        else {
+            cl_coins.background = activity!!.getDrawable(R.drawable.rounded_4_bottom_yellow)
+        }
+
+        tv_card_price.text = when(card.title.substring(0, 6).contains(".")) {
+            true -> {
+                card.title.replaceAfter(" ", "").replace(" ", "")
+            }
+            false -> {
+                "${card.title.replaceAfter(" ", "")}.00".replace(" ", "")
+            }
+        }
+        tv_coins_amount.text = getString(R.string.comma_separated, card.credits)
+
+        loadPicture(iv_card_image, card.image_url)
     }
 }
