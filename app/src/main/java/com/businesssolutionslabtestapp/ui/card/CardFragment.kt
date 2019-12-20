@@ -1,20 +1,15 @@
 package com.businesssolutionslabtestapp.ui.card
 
-import android.content.Context
-import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-
 import com.businesssolutionslabtestapp.R
 import com.businesssolutionslabtestapp.model.GiftCard
 import com.businesssolutionslabtestapp.ui.base.BaseFragment
 import com.businesssolutionslabtestapp.util.CARD
 import com.businesssolutionslabtestapp.util.loadPicture
-import com.businesssolutionslabtestapp.util.loadPictureWithoutCrop
 import kotlinx.android.synthetic.main.fragment_card.*
 
 class CardFragment : BaseFragment() {

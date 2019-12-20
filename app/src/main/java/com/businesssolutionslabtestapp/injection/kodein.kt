@@ -5,7 +5,6 @@ import com.businesssolutionslabtestapp.injection.module.appModule
 import com.businesssolutionslabtestapp.injection.module.netModule
 import com.businesssolutionslabtestapp.injection.module.picassoModule
 import org.kodein.di.Kodein
-import java.util.*
 
 lateinit var di: Kodein
 

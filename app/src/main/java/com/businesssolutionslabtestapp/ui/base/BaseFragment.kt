@@ -1,7 +1,6 @@
 package com.businesssolutionslabtestapp.ui.base
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import io.reactivex.disposables.CompositeDisposable
 import org.kodein.di.Kodein

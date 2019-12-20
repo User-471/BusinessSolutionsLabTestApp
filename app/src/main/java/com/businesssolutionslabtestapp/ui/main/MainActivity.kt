@@ -1,11 +1,9 @@
 package com.businesssolutionslabtestapp.ui.main
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.fragment.NavHostFragment
 import com.businesssolutionslabtestapp.R
 import com.businesssolutionslabtestapp.ui.base.BaseActivity
-import com.businesssolutionslabtestapp.ui.base.BaseFragment
 
 class MainActivity : BaseActivity() {
 

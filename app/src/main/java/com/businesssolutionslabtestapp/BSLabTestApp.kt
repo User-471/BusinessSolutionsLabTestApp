@@ -1,10 +1,6 @@
 package com.businesssolutionslabtestapp
 
-import android.app.ActivityManager
 import android.app.Application
-import android.content.Context
-import android.os.Build
-import android.webkit.WebView
 import androidx.appcompat.app.AppCompatDelegate
 import com.businesssolutionslabtestapp.injection.initKodein
 import com.businesssolutionslabtestapp.injection.module.appModule
