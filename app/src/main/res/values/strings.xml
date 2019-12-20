@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BusinessSolutionsLabTestApp</string>
+
+    <string name="providers_toolbar_title">BS lab Test</string>
+    <string name="coins">coins</string>
+    <string name="with_cents">$1%d</string>
+    <string name="comma_separated">%,d</string>
+    <string name="triple_cards">Triple cards</string>
+
+</resources>
